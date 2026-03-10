@@ -1,5 +1,10 @@
 <div align="center">
 
+<p>
+  <img src="https://img.shields.io/badge/ANALYTICS-CASE%20STUDY-0A2540?style=flat-square" alt="Analytics Case Study"/>
+  <img src="https://img.shields.io/badge/FOCUS-REVENUE%20OPTIMIZATION-1F6FEB?style=flat-square" alt="Revenue Optimization"/>
+</p>
+
 <h1>🔍 Revenue Leak Detection via Conversion Funnel Optimization</h1>
 
 <p>
@@ -11,13 +16,15 @@
 
 <p><em>End-to-End Data Analysis Project: Identifying Revenue Leakage Points in E-commerce Conversion Funnels</em></p>
 
-<p>
-  <a href="#-key-findings"><strong>Key Findings</strong></a> | 
-  <a href="#-project-overview"><strong>Overview</strong></a> | 
-  <a href="#-tech-stack"><strong>Tech Stack</strong></a> | 
-  <a href="#-folder-structure"><strong>Structure</strong></a> | 
-  <a href="#-getting-started"><strong>Get Started</strong></a>
-</p>
+<table>
+  <tr>
+    <td><a href="#-key-findings"><strong>Key Findings</strong></a></td>
+    <td><a href="#-project-overview"><strong>Overview</strong></a></td>
+    <td><a href="#-tech-stack"><strong>Tech Stack</strong></a></td>
+    <td><a href="#-folder-structure"><strong>Structure</strong></a></td>
+    <td><a href="#-getting-started"><strong>Get Started</strong></a></td>
+  </tr>
+</table>
 
 </div>
 
@@ -26,6 +33,12 @@
 ## 📊 Key Findings
 
 <table>
+  <tr>
+    <th align="center" width="25%">Revenue Leakage</th>
+    <th align="center" width="25%">Largest Drop-off</th>
+    <th align="center" width="25%">Top Segment Leak</th>
+    <th align="center" width="25%">Overall Conversion</th>
+  </tr>
   <tr>
     <td align="center" width="25%">
       <img width="60" src="https://img.icons8.com/color/96/money-bag.png"/>
@@ -113,6 +126,13 @@ flowchart LR
 | Checkout → Purchase | 10,837 | $167,248 | 🟢 Low |
 
 > **💡 Key Insight:** The **Product View → Add to Cart** stage accounts for **~65-70%** of total revenue leakage. Optimizing this stage offers the highest ROI.
+
+<table>
+  <tr>
+    <td><strong>Executive Priority:</strong> Product View → Add to Cart</td>
+    <td><strong>Expected Outcome:</strong> Highest ROI stage optimization</td>
+  </tr>
+</table>
 
 <hr>
 
@@ -255,6 +275,13 @@ jupyter notebook notebooks/01_funnel_analysis_validation.ipynb
 | **Total Revenue** | $1,782,822 |
 | **Revenue per Session** | $13.47 |
 | **Date Range** | Aug 2016 - Aug 2017 |
+
+<table>
+  <tr>
+    <td><strong>Reporting Window:</strong> Aug 2016 - Aug 2017</td>
+    <td><strong>Primary KPI:</strong> Revenue per Session</td>
+  </tr>
+</table>
 
 <hr>
 
