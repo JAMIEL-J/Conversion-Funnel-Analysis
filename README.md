@@ -1,31 +1,27 @@
 <div align="center">
 
-# 🔍 Revenue Leak Detection via Conversion Funnel Optimization
+<h1>🔍 Revenue Leak Detection via Conversion Funnel Optimization</h1>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/SQL-BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery"/>
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
 </p>
 
-<p align="center">
-  <em>End-to-End Data Analysis Project: Identifying Revenue Leakage Points in E-commerce Conversion Funnels</em>
-</p>
-
----
+<p><em>End-to-End Data Analysis Project: Identifying Revenue Leakage Points in E-commerce Conversion Funnels</em></p>
 
 <p>
-  <a href="#-key-findings">Key Findings</a> •
-  <a href="#-project-overview">Overview</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-folder-structure">Structure</a> •
-  <a href="#-getting-started">Get Started</a>
+  <a href="#-key-findings"><strong>Key Findings</strong></a> | 
+  <a href="#-project-overview"><strong>Overview</strong></a> | 
+  <a href="#-tech-stack"><strong>Tech Stack</strong></a> | 
+  <a href="#-folder-structure"><strong>Structure</strong></a> | 
+  <a href="#-getting-started"><strong>Get Started</strong></a>
 </p>
 
 </div>
 
----
+<hr>
 
 ## 📊 Key Findings
 
@@ -33,28 +29,36 @@
   <tr>
     <td align="center" width="25%">
       <img width="60" src="https://img.icons8.com/color/96/money-bag.png"/>
-      <br><strong>$1.14M+</strong>
-      <br><sub>Revenue Leakage Identified</sub>
+      <br>
+      <strong>$1.14M+</strong>
+      <br>
+      <sub>Revenue Leakage Identified</sub>
     </td>
     <td align="center" width="25%">
       <img width="60" src="https://img.icons8.com/color/96/shopping-cart.png"/>
-      <br><strong>73,961</strong>
-      <br><sub>Drop-offs (View → Cart)</sub>
+      <br>
+      <strong>73,961</strong>
+      <br>
+      <sub>Drop-offs (View → Cart)</sub>
     </td>
     <td align="center" width="25%">
       <img width="60" src="https://img.icons8.com/color/96/monitor.png"/>
-      <br><strong>$835K</strong>
-      <br><sub>Desktop Revenue Leak</sub>
+      <br>
+      <strong>$835K</strong>
+      <br>
+      <sub>Desktop Revenue Leak</sub>
     </td>
     <td align="center" width="25%">
       <img width="60" src="https://img.icons8.com/color/96/graph.png"/>
-      <br><strong>9.3%</strong>
-      <br><sub>Overall Conversion Rate</sub>
+      <br>
+      <strong>9.3%</strong>
+      <br>
+      <sub>Overall Conversion Rate</sub>
     </td>
   </tr>
 </table>
 
----
+<hr>
 
 ## 🎯 Project Overview
 
@@ -75,11 +79,11 @@ flowchart LR
     E --> F[💡 Strategic Recommendations]
 ```
 
----
+<hr>
 
 ## 📈 Funnel Performance Snapshot
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                          CONVERSION FUNNEL                              │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -94,11 +98,11 @@ flowchart LR
               40.4%                 44.7%              51.6%
            conversion            conversion         conversion
 
-                  ⚠️ LARGEST                                
-                  DROP-OFF                                  
+                  ⚠️ LARGEST
+                  DROP-OFF
 ```
 
----
+<hr>
 
 ## 🔴 Critical Revenue Leakage by Stage
 
@@ -110,7 +114,7 @@ flowchart LR
 
 > **💡 Key Insight:** The **Product View → Add to Cart** stage accounts for **~65-70%** of total revenue leakage. Optimizing this stage offers the highest ROI.
 
----
+<hr>
 
 ## 💻 Tech Stack
 
@@ -146,11 +150,11 @@ flowchart LR
   </tr>
 </table>
 
----
+<hr>
 
 ## 📁 Folder Structure
 
-```
+```text
 📦 Revenue_Leak_Detection/
 ├── 📂 SQL/
 │   ├── 01_data_validation.sql         # ✅ Data quality checks
@@ -172,7 +176,7 @@ flowchart LR
 └── README.md                          # 📖 You are here!
 ```
 
----
+<hr>
 
 ## 🎯 Strategic Recommendations
 
@@ -213,7 +217,7 @@ flowchart LR
 
 </details>
 
----
+<hr>
 
 ## 🚀 Getting Started
 
@@ -239,7 +243,7 @@ git clone https://github.com/yourusername/revenue-leak-detection.git
 jupyter notebook notebooks/01_funnel_analysis_validation.ipynb
 ```
 
----
+<hr>
 
 ## 📊 Data Overview
 
@@ -252,7 +256,7 @@ jupyter notebook notebooks/01_funnel_analysis_validation.ipynb
 | **Revenue per Session** | $13.47 |
 | **Date Range** | Aug 2016 - Aug 2017 |
 
----
+<hr>
 
 ## ⚠️ Assumptions & Limitations
 
@@ -263,13 +267,13 @@ jupyter notebook notebooks/01_funnel_analysis_validation.ipynb
 
 > For full details, see [`reports/assumption_and_limitations.md`](reports/assumption_and_limitations.md)
 
----
+<hr>
 
 ## 📝 License
 
 This project is for educational and portfolio purposes.
 
----
+<hr>
 
 <div align="center">
 
@@ -279,10 +283,6 @@ This project is for educational and portfolio purposes.
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourportfolio.com)
 
----
-
-<p>
-  <sub>⭐ Star this repository if you found it helpful!</sub>
-</p>
+<p><sub>⭐ Star this repository if you found it helpful!</sub></p>
 
 </div>
